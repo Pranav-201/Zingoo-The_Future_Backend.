@@ -478,10 +478,10 @@ zingoo dev
 
 | Version | Focus | Status |
 |---|---|:---:|
-| `v0.1` | Core — HTTP, router, middleware, errors | 🚧 |
-| `v0.2` | Type safety & validation |  🚧 |
+| `v0.1` | Core — HTTP, router, middleware, errors | ✅ |
+| `v0.2` | Type safety & validation |  ✅ |
 | `v0.3` | AI-native layer | ⏳ |
-| `v0.4` | Security & auth | ⏳ |
+| `v0.4` | Security & auth | ✅ |
 | `v0.5` | Database layer | ⏳ |
 | `v0.6` | Production (logging, health, graceful shutdown) | ⏳ |
 | `v0.7` | DX & CLI (`zingoo dev/build/start`) | ⏳ |
