@@ -4,7 +4,7 @@
 <br/>
 
 
-<img src="./assets/Zingoo_logo.png" width="600" alt="Zingoo Logo" style="margin-top:-160px;"/>
+<img src="Zingoo_logo.png" width="600" alt="Zingoo Logo" style="margin-top:-160px;"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00F5D4&center=true&vCenter=true&width=650&lines=Secure+by+default.+Fast+by+design.;AI%2C+RAG+%26+Observability+built-in.;One+framework.+Zero+boilerplate.;npm+install+zingoo" alt="Typing SVG"/>
 
