@@ -1,8 +1,6 @@
 <div align="center">
 
-
 <br/>
-
 
 <img src="Zingoo_logo.png" width="600" alt="Zingoo Logo" style="margin-top:-160px;"/>
 
@@ -20,9 +18,7 @@ Zingoo is an all-in-one Node.js framework for building modern backend applicatio
 
 ```bash
 npm install zingoo
-
-
-<br/>
+```
 
 [![npm version](https://img.shields.io/badge/npm-v0.1.0-00F5D4?style=for-the-badge&logo=npm&logoColor=white)](#)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blueviolet?style=for-the-badge)](#)
@@ -30,23 +26,13 @@ npm install zingoo
 [![Tests](https://img.shields.io/badge/tests-44%2F44%20passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-ff69b4?style=for-the-badge)](#)
 
-</div>
-
 <br/>
-
-<table align="center">
-<tr>
-<td>
 
 > The all-in-one Node.js framework for modern backend development
 > From API to AI. One Framework
 > Build More. Configure Less.
 
-</td>
-</tr>
-</table>
-
-<div align="center">
+<br/>
 
 ### 📚 Documentation
 
@@ -93,8 +79,6 @@ Zingoo is a **TypeScript-first, modern Node.js HTTP framework** designed as a le
 ```diff
 + npm install zingoo
 ```
-
-<br clear="right"/>
 
 ---
 
@@ -183,8 +167,6 @@ Early performance numbers for **Zingoo v0.1.0**. These are first-pass benchmarks
 <img src="bench2.jpeg" width="700" alt="Zingoo v0.1.0 benchmark — routing latency"/>
 
 </div>
-
-
 
 ---
 
@@ -571,8 +553,11 @@ app.listen(3000, () => {
 });
 ```
 
+Run it with a TypeScript-capable runner (plain `node` can't execute `.ts` files directly):
+
 ```bash
-node server.ts
+npx tsx server.ts
+# or: npx ts-node server.ts
 ```
 
 ---
