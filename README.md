@@ -8,6 +8,19 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00F5D4&center=true&vCenter=true&width=650&lines=Secure+by+default.+Fast+by+design.;TypeScript%2DFirst+HTTP+Framework;One+framework.+Zero+boilerplate.;npm+install+zingoo" alt="Typing SVG"/>
 
+## 🚀 Zingoo v0.1.0 — Officially Launched
+
+**Build More. Configure Less.**
+
+Zingoo **v0.1.0** is now officially available on npm 🎉
+
+Zingoo is an all-in-one Node.js framework for building modern backend applications with essential backend capabilities built directly into the framework.
+
+### 📦 Install Zingoo
+
+```bash
+npm install zingoo
+
 
 <br/>
 
@@ -25,7 +38,9 @@
 <tr>
 <td>
 
-> **TL;DR** — Zingoo is a **TypeScript-first, lightweight Node.js HTTP framework** that replaces Express boilerplate with sensible defaults. Secure by default. Type-safe end-to-end. Built for the modern backend stack.
+> The all-in-one Node.js framework for modern backend development
+> From API to AI. One Framework
+> Build More. Configure Less.
 
 </td>
 </tr>
