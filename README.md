@@ -2,9 +2,6 @@
 
 <br/>
 
-<table>
-<tr>
-<td width="60%" valign="middle">
 
 <img src="Zingoo_logo.png" width="400" alt="Zingoo Logo"/>
 
@@ -16,16 +13,13 @@
 
 Zingoo **v0.1.0** is now officially available on npm 🎉
 
-Zingoo is an all-in-one Node.js framework for building modern backend applications with essential backend capabilities built directly into the framework.
 
-</td>
-<td width="40%" align="center" valign="middle">
+
+
+
 
 <img src="https://camo.githubusercontent.com/e48401e4018d3287d387998dcbdd928fbe90d0a686ea201ac1dc58f00e5d85c9/68747470733a2f2f6f776c6265727473696f2d726573697a65642e73332e616d617a6f6e6177732e636f6d2f506f707065722e7073642e66756c6c2e706e67" width="280" alt="Launch"/>
 
-</td>
-</tr>
-</table>
 
 ### 📦 Install Zingoo
 
@@ -42,8 +36,6 @@ npm install zingoo
 <br/>
 
 > The all-in-one Node.js framework for modern backend development
-> From API to AI. One Framework
-> Build More. Configure Less.
 
 <br/>
 
@@ -643,18 +635,7 @@ throw new ZingooError("User not found", 404);
 ### v1.0 ⏳ PLANNED
 **Launch / Ecosystem**
 
-</div>
 
-| Version | Focus | Status |
-|---|---|:---:|
-| `v0.1` | Core HTTP, router, middleware, security, validation, errors | ✅ Complete |
-| `v0.2` | AI Route Generation, AI Error Analysis, AI Debugging, AI API Docs, AI Request Validation, AI Middleware Generation, AI Developer Assistant, AI Agent Integration, LLM Provider Abstraction, AI Memory | 🚧 In Progress |
-| `v0.3` | Developer experience tooling (CLI, hot reload, docs) | ⏳ Planned |
-| `v0.4` | Production hardening & performance (graceful shutdown, dedicated benchmark suite) | ⏳ Planned |
-| `v0.5` | Full backend platform (database layer, observability) | ⏳ Planned |
-| `v1.0` | Plugin ecosystem & final launch | ⏳ Planned |
-
----
 
 ## 🚀 Running Tests
 
@@ -664,24 +645,7 @@ npm test
 
 **Status:** 44/44 tests passing ✅
 
----
 
-## 📝 Contributing
-
-Contributions welcome! For v0.1.0, focus areas:
-
-- Bug reports & fixes
-- Documentation & examples
-- Test coverage expansion
-
-See `CONTRIBUTING.md` for guidelines.
-
-```bash
-git clone https://github.com/<your-username>/zingoo.git
-cd zingoo
-npm install
-npm run dev
-```
 
 ---
 
@@ -697,6 +661,6 @@ MIT — See LICENSE file
 
 **v0.1.0 shipped. v0.2 (AI-Native) coming soon.**
 
-**Where Express boilerplate ends, Zingoo begins.**
+**Where Express ends, Zingoo begins.**
 
 </div>
