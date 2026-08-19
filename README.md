@@ -2,18 +2,30 @@
 
 <br/>
 
-<img src="Zingoo_logo.png" width="600" alt="Zingoo Logo" style="margin-top:-160px;"/>
+<table>
+<tr>
+<td width="60%" valign="middle">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00F5D4&center=true&vCenter=true&width=650&lines=Secure+by+default.+Fast+by+design.;TypeScript%2DFirst+HTTP+Framework;One+framework.+Zero+boilerplate.;npm+install+zingoo" alt="Typing SVG"/>
+<img src="Zingoo_logo.png" width="400" alt="Zingoo Logo"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00F5D4&center=true&vCenter=true&width=650&lines=Secure+by+default.+Fast+by+design.;JavaScript%2DFirst+HTTP+Framework;One+framework.+Zero+boilerplate.;npm+install+zingoo" alt="Typing SVG"/>
 
 ## 🚀 Zingoo v0.1.0 — Officially Launched
-
-<img src="https://camo.githubusercontent.com/e48401e4018d3287d387998dcbdd928fbe90d0a686ea201ac1dc58f00e5d85c9/68747470733a2f2f6f776c6265727473696f2d726573697a65642e73332e616d617a6f6e6177732e636f6d2f506f707065722e7073642e66756c6c2e706e67" width="400" alt="Launch"/>
 
 **Build More. Configure Less.**
 
 Zingoo **v0.1.0** is now officially available on npm 🎉
 
+Zingoo is an all-in-one Node.js framework for building modern backend applications with essential backend capabilities built directly into the framework.
+
+</td>
+<td width="40%" align="center" valign="middle">
+
+<img src="https://camo.githubusercontent.com/e48401e4018d3287d387998dcbdd928fbe90d0a686ea201ac1dc58f00e5d85c9/68747470733a2f2f6f776c6265727473696f2d726573697a65642e73332e616d617a6f6e6177732e636f6d2f506f707065722e7073642e66756c6c2e706e67" width="280" alt="Launch"/>
+
+</td>
+</tr>
+</table>
 
 ### 📦 Install Zingoo
 
@@ -23,14 +35,15 @@ npm install zingoo
 
 [![npm version](https://img.shields.io/badge/npm-v0.1.0-00F5D4?style=for-the-badge&logo=npm&logoColor=white)](#)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blueviolet?style=for-the-badge)](#)
-[![TypeScript](https://img.shields.io/badge/TypeScript-First-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-First-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
 [![Tests](https://img.shields.io/badge/tests-44%2F44%20passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-ff69b4?style=for-the-badge)](#)
 
 <br/>
 
 > The all-in-one Node.js framework for modern backend development
-
+> From API to AI. One Framework
+> Build More. Configure Less.
 
 <br/>
 
@@ -72,9 +85,9 @@ npm install zingoo
 
 ## 🌌 What is Zingoo?
 
-Zingoo is a **TypeScript-first, modern Node.js HTTP framework** designed as a lean, type-safe alternative to Express. It ships with routing, middleware, validation, security headers, CORS, rate limiting, and structured error handling — all with a clean, minimal API.
+Zingoo is a **modern, JavaScript-first Node.js HTTP framework** designed as a lean alternative to Express. It ships with routing, middleware, validation, security headers, CORS, rate limiting, and structured error handling — all with a clean, minimal API.
 
-**v0.1.0 ships the core framework.** Future versions will add AI/LLM support, RAG pipelines, and observability as first-class features.
+**v0.1.0 ships the core framework.** Future versions will add AI/LLM support as a first-class feature.
 
 ```diff
 + npm install zingoo
@@ -88,13 +101,14 @@ Zingoo is a **TypeScript-first, modern Node.js HTTP framework** designed as a le
 
 | ✅ Shipped | 🚧 Coming Soon |
 |:---:|:---:|
-| HTTP Server & Router | AI / LLM Engine |
-| Middleware System | RAG Pipelines |
-| Request/Response APIs | Observability Dashboard |
-| Body Parsing & Validation | Database Layer |
+| HTTP Server & Router | AI-Native Framework |
+| Middleware System | Developer Experience Tooling |
+| Request/Response APIs | Production & Performance Tooling |
+| Body Parsing & Validation | Full Backend Platform |
 | Security Defaults | Plugin Marketplace |
-| Error Handling | Auto-generated CRUD |
-| Testing Framework (44/44 ✅) | Performance Benchmarks |
+| Rate Limiting | Auto-generated CRUD |
+| Testing Framework (44/44 ✅) | Observability Dashboard |
+| Benchmarking (Autocannon) | Dedicated Benchmark Suite |
 
 </div>
 
@@ -105,10 +119,10 @@ Zingoo is a **TypeScript-first, modern Node.js HTTP framework** designed as a le
 - ✅ Application factory (`zingoo()`)
 - ✅ Native Node `http` server
 - ✅ Route registration (GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD)
+- ✅ Generic route registration (`app.route()`)
 - ✅ Static & dynamic routes
 - ✅ Route parameters (`:id`, multiple params)
 - ✅ Static route priority
-- ✅ Nested/mounted routers
 - ✅ Global & router-level middleware
 - ✅ Middleware `next()` chaining
 
@@ -119,44 +133,48 @@ Zingoo is a **TypeScript-first, modern Node.js HTTP framework** designed as a le
 - ✅ Route parameter extraction
 - ✅ Response abstraction layer
 - ✅ JSON responses, status codes
-- ✅ Response helpers & termination
+- ✅ Response helpers (e.g. `res.ok()`)
 
 #### 📦 Body & Validation
 
 - ✅ JSON body parser
 - ✅ URL-encoded body parser
 - ✅ Text body parser
-- ✅ Configurable body size limits
+- ✅ Configurable body size limits (`bodyLimit`)
 - ✅ Invalid JSON error handling
-- ✅ Built-in validation
-- ✅ Body, query, and params validation
+- ✅ Built-in validation (`app.validate()`)
 
 #### 🛡️ Security
 
-- ✅ Security headers (Helmet-inspired defaults)
-- ✅ CORS configuration
-- ✅ Rate limiting (customizable)
+- ✅ Security headers applied by default (no config needed)
+- ✅ CORS configuration (`app.cors()`)
+- ✅ Rate limiting (`app.rateLimit()`)
 
 #### ⚠️ Errors
 
 - ✅ `ZingooError` class
-- ✅ Global error handler
-- ✅ Development vs. production-safe responses
-- ✅ Custom error handler support
+- ✅ Global error handler (`app.onError()`)
+- ✅ Environment-aware responses (`setEnvironment`)
 
 #### 🧪 Developer Experience
 
 - ✅ Built-in logger
 - ✅ Request logging
 - ✅ Public API & examples
-- ✅ Full TypeScript support
 - ✅ **44/44 tests passing** ✅
 
 ---
 
 ## 📊 Benchmarks
 
-Early performance numbers for **Zingoo v0.1.0**. These are first-pass benchmarks — a dedicated benchmarking suite is planned for a future release (see [Roadmap](#-roadmap)).
+Benchmarked with **Autocannon** — 100 connections, 10 seconds:
+
+| Route | Requests/sec | Avg Latency |
+|---|:---:|:---:|
+| `GET /` | ~1,713 req/sec | ~57 ms |
+| `GET /users/123` | ~1,465 req/sec | ~67 ms |
+
+A dedicated benchmarking suite with Express/Fastify comparisons is planned for a future release (see [Roadmap](#-roadmap)).
 
 <div align="center">
 
@@ -178,7 +196,7 @@ Early performance numbers for **Zingoo v0.1.0**. These are first-pass benchmarks
 
 Create an app and register routes with a familiar API:
 
-```ts
+```js
 import zingoo from "zingoo";
 
 const app = zingoo();
@@ -197,7 +215,7 @@ app.listen(3000);
 
 Supports all HTTP methods:
 
-```ts
+```js
 app.get(path, handler);
 app.post(path, handler);
 app.put(path, handler);
@@ -205,11 +223,14 @@ app.patch(path, handler);
 app.delete(path, handler);
 app.options(path, handler);
 app.head(path, handler);
+
+// Generic registration
+app.route(method, path, handler);
 ```
 
 Dynamic route parameters:
 
-```ts
+```js
 app.get("/users/:id", (req, res) => {
   const { id } = req.params;
   res.json({ user: { id } });
@@ -221,24 +242,13 @@ app.get("/posts/:postId/comments/:commentId", (req, res) => {
 });
 ```
 
-Mount nested routers:
-
-```ts
-const userRouter = zingoo.Router();
-userRouter.get("/:id", (req, res) => { /* ... */ });
-userRouter.post("/", (req, res) => { /* ... */ });
-
-app.mount("/users", userRouter);
-// Routes: GET /users/:id, POST /users
-```
-
 <br/>
 
 ### 🔄 Middleware & Flow Control
 
 Register global middleware:
 
-```ts
+```js
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.path}`);
   next();
@@ -250,23 +260,19 @@ app.use((req, res, next) => {
 });
 ```
 
-Router-level middleware:
+Route-scoped middleware:
 
-```ts
-const apiRouter = zingoo.Router();
-
-apiRouter.use((req, res, next) => {
+```js
+const requireAuth = (req, res, next) => {
   if (!req.headers.authorization) {
     return res.status(401).json({ error: "Unauthorized" });
   }
   next();
-});
+};
 
-apiRouter.get("/profile", (req, res) => {
+app.get("/profile", requireAuth, (req, res) => {
   res.json({ user: req.user });
 });
-
-app.mount("/api", apiRouter);
 ```
 
 Middleware runs in registration order and respects `next()`.
@@ -277,7 +283,7 @@ Middleware runs in registration order and respects `next()`.
 
 **Request object:**
 
-```ts
+```js
 app.get("/search", (req, res) => {
   const query = req.query.q;           // Query params
   const method = req.method;           // HTTP method
@@ -291,15 +297,15 @@ app.get("/search", (req, res) => {
 
 **Response object:**
 
-```ts
+```js
 app.get("/", (req, res) => {
   res.status(200);                     // Set status
   res.setHeader("X-Custom", "value");  // Set headers
   res.json({ data: "value" });         // JSON response
-  // OR
-  res.send("plain text");              // Plain text
-  // OR
-  res.end();                           // End without body
+});
+
+app.get("/health", (req, res) => {
+  res.ok({ status: "healthy" });       // 200 helper
 });
 ```
 
@@ -309,7 +315,7 @@ app.get("/", (req, res) => {
 
 Automatic body parsing for common content types:
 
-```ts
+```js
 app.post("/users", (req, res) => {
   // req.body is automatically parsed
   const { name, email } = req.body;
@@ -324,73 +330,67 @@ Supports:
 
 Configurable size limits:
 
-```ts
-const app = zingoo({
-  bodyLimit: "10mb"
-});
+```js
+const app = zingoo();
+app.bodyLimit("10mb");
 ```
 
-Built-in validation:
+Built-in validation with `app.validate()`:
 
-```ts
-const validateUser = (body) => {
-  if (!body.name || typeof body.name !== "string") {
-    throw new ZingooError("Invalid name", 400);
+```js
+app.post(
+  "/users",
+  app.validate({
+    body: {
+      name: { type: "string", required: true },
+      email: { type: "string", required: true }
+    }
+  }),
+  (req, res) => {
+    res.json({ user: req.body });
   }
-  if (!body.email || !body.email.includes("@")) {
-    throw new ZingooError("Invalid email", 400);
-  }
-};
-
-app.post("/users", (req, res) => {
-  validateUser(req.body);
-  res.json({ user: req.body });
-});
+);
 ```
+
+> Check `src/validator.js` for the exact schema syntax supported.
 
 <br/>
 
 ### 🛡️ Security Defaults
 
-Enable security headers automatically:
+Security headers are applied automatically — no configuration needed:
 
-```ts
-const app = zingoo({
-  security: {
-    headers: true,
-    cors: true,
-    rateLimit: true
-  }
-});
+```js
+const app = zingoo();
+// Security headers are already active here
 ```
 
 **Security headers** (enabled by default):
 - `X-Content-Type-Options: nosniff`
 - `X-Frame-Options: DENY`
-- `X-XSS-Protection: 1; mode=block`
-- `Referrer-Policy: strict-origin-when-cross-origin`
-- `Permissions-Policy: geolocation=(), microphone=(), camera=()`
+- `Referrer-Policy: no-referrer`
 
 **CORS:**
 
-```ts
-const app = zingoo({
-  cors: {
-    origin: ["http://localhost:3000", "https://example.com"],
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true
-  }
+```js
+app.cors({
+  origin: "http://localhost:5173"
+});
+
+// or allow all origins
+app.cors({
+  origin: "*"
 });
 ```
 
+> Current CORS supports a single `origin` string plus `methods`/`headers` config. `credentials` is not yet implemented.
+
 **Rate Limiting:**
 
-```ts
-const app = zingoo({
-  rateLimit: {
-    windowMs: 15 * 60 * 1000,  // 15 minutes
-    max: 100                    // 100 requests per window
-  }
+```js
+app.rateLimit({
+  windowMs: 60 * 1000, // 1 minute
+  max: 100             // 100 requests per window
 });
 ```
 
@@ -400,7 +400,7 @@ const app = zingoo({
 
 Zingoo includes a `ZingooError` class for structured errors:
 
-```ts
+```js
 import { ZingooError } from "zingoo";
 
 app.get("/users/:id", (req, res) => {
@@ -411,21 +411,23 @@ app.get("/users/:id", (req, res) => {
 });
 ```
 
-Global error handler (catches thrown errors):
+Global error handler:
 
-```ts
-app.on("error", (err, req, res) => {
+```js
+app.onError((err, req, res) => {
   console.error(err);
-  res.status(err.status || 500).json({
+  res.status(err.status || 500);
+  res.json({
     error: err.message,
     ...(process.env.NODE_ENV === "development" && { stack: err.stack })
   });
 });
 ```
 
-Production-safe error responses:
+Environment-aware responses:
 
-```ts
+```js
+app.setEnvironment("production");
 // Development: returns full stack trace
 // Production: returns safe message only
 ```
@@ -436,7 +438,7 @@ Production-safe error responses:
 
 Built-in logger for debugging:
 
-```ts
+```js
 app.use((req, res, next) => {
   console.log(`→ ${req.method} ${req.path}`);
   next();
@@ -448,36 +450,18 @@ app.use((req, res, next) => {
 // → GET /users/1
 ```
 
-Full TypeScript support throughout:
-
-```ts
-interface User {
-  id: number;
-  name: string;
-  email: string;
-}
-
-app.get("/users/:id", (req, res): void => {
-  const user: User = { id: 1, name: "Alice", email: "alice@example.com" };
-  res.json(user);
-});
-```
-
 ---
 
 ## 🗺️ Architecture
 
 ```mermaid
 flowchart LR
-    Client([Client Request]) --> Router[Zingoo Router]
-    Router --> Middleware[🔄 Middleware Chain]
-    Middleware --> Parser[📦 Body Parser]
-    Parser --> Validate[✅ Validation]
-    Validate --> Security[🛡️ Security Checks]
-    Security --> Handler[Route Handler]
-    Handler --> Response[Response Builder]
-    Response --> Headers[Headers & Status]
-    Headers --> Client
+    Client([Client Request]) --> App[Zingoo Application]
+    App --> Router[Router]
+    Router --> Middleware[🔄 Middleware Pipeline]
+    Middleware --> Handler[Route Handler]
+    Handler --> Response[Response]
+    Response --> Client
 
     Errors["⚠️ Error Handler"]
     Handler -.error.-> Errors
@@ -485,24 +469,28 @@ flowchart LR
 ```
 
 <details>
-<summary>📦 Modular package structure</summary>
+<summary>📦 Package structure (v0.1.0)</summary>
 
 ```
-zingoo (umbrella export)
-├── @zingoo/core         (app factory, router)
-├── @zingoo/http         (request/response)
-├── @zingoo/parser       (body parsing)
-├── @zingoo/validation   (error class, validators)
-├── @zingoo/security     (headers, CORS, rate limit)
-├── @zingoo/error        (error handler)
-└── @zingoo/logger       (logging utilities)
-
-Upcoming:
-├── @zingoo/ai           (LLM support)
-├── @zingoo/rag          (RAG pipelines)
-├── @zingoo/observability (metrics, tracing)
-├── @zingoo/database     (ORM helpers)
-└── @zingoo/plugins      (plugin system)
+zingoo
+├── index.js
+├── src/
+│   ├── application.js
+│   ├── router.js
+│   ├── middleware.js
+│   ├── request.js
+│   ├── response.js
+│   ├── body-parser.js
+│   ├── validator.js
+│   ├── validation-middleware.js
+│   ├── cors.js
+│   ├── security.js
+│   ├── rate-limiter.js
+│   ├── logger.js
+│   ├── request-logger.js
+│   ├── error-handler.js
+│   └── errors.js
+└── examples/
 ```
 
 </details>
@@ -515,15 +503,20 @@ Upcoming:
 npm install zingoo
 ```
 
-```ts
+```js
 import zingoo from "zingoo";
 
-const app = zingoo({
-  security: {
-    headers: true,
-    cors: true,
-    rateLimit: true
-  }
+const app = zingoo();
+
+// CORS
+app.cors({
+  origin: "*"
+});
+
+// Rate limiting
+app.rateLimit({
+  windowMs: 60 * 1000,
+  max: 100
 });
 
 // Global middleware
@@ -539,7 +532,8 @@ app.get("/", (req, res) => {
 
 app.post("/api/users", (req, res) => {
   const { name, email } = req.body;
-  res.status(201).json({ id: 1, name, email });
+  res.status(201);
+  res.json({ id: 1, name, email });
 });
 
 app.get("/api/users/:id", (req, res) => {
@@ -553,11 +547,8 @@ app.listen(3000, () => {
 });
 ```
 
-Run it with a TypeScript-capable runner (plain `node` can't execute `.ts` files directly):
-
 ```bash
-npx tsx server.ts
-# or: npx ts-node server.ts
+node server.js
 ```
 
 ---
@@ -571,10 +562,15 @@ npx tsx server.ts
 
 | Method | Signature | Description |
 |---|---|---|
-| `zingoo()` | `zingoo(options?)` | Create app instance |
+| `zingoo()` | `zingoo()` | Create app instance |
 | `app.listen()` | `(port, callback?)` | Start HTTP server |
 | `app.use()` | `(middleware)` | Register global middleware |
-| `app.on()` | `(event, handler)` | Listen for app events (e.g., `error`) |
+| `app.cors()` | `(options)` | Configure CORS |
+| `app.rateLimit()` | `(options)` | Configure rate limiting |
+| `app.validate()` | `(schema)` | Built-in validation middleware |
+| `app.bodyLimit()` | `(limit)` | Set request body size limit |
+| `app.setEnvironment()` | `(env)` | Set `development` / `production` mode |
+| `app.onError()` | `(handler)` | Register global error handler |
 
 ### Routing
 
@@ -587,8 +583,7 @@ npx tsx server.ts
 | `app.delete()` | `(path, handler)` | Register DELETE route |
 | `app.options()` | `(path, handler)` | Register OPTIONS route |
 | `app.head()` | `(path, handler)` | Register HEAD route |
-| `app.mount()` | `(path, router)` | Mount nested router |
-| `zingoo.Router()` | `()` | Create nested router instance |
+| `app.route()` | `(method, path, handler)` | Generic route registration |
 
 ### Request
 
@@ -606,9 +601,9 @@ npx tsx server.ts
 
 | Method | Signature | Description |
 |---|---|---|
-| `res.status()` | `(code: number)` | Set HTTP status |
-| `res.json()` | `(data: any)` | Send JSON response |
-| `res.send()` | `(data: string \| Buffer)` | Send text response |
+| `res.status()` | `(code)` | Set HTTP status |
+| `res.json()` | `(data)` | Send JSON response |
+| `res.ok()` | `(data)` | Send a 200 JSON response |
 | `res.setHeader()` | `(name, value)` | Set response header |
 | `res.end()` | `()` | End response |
 
@@ -618,7 +613,7 @@ npx tsx server.ts
 |---|---|
 | `ZingooError` | Custom error class with status code |
 
-```ts
+```js
 throw new ZingooError("User not found", 404);
 ```
 
@@ -630,32 +625,34 @@ throw new ZingooError("User not found", 404);
 
 <div align="center">
 
-### v0.1.0 ✅ COMPLETE
-**HTTP Framework, Routing, Middleware, Security, Error Handling**
+### v0.1 ✅ COMPLETE
+**Core Web Framework**
 
-### v0.2.0 🚧 IN PROGRESS
-**Type Safety & Advanced Validation**
+### v0.2 🚧 IN PROGRESS
+**AI-Native Framework**
 
-### v0.3.0 ⏳ PLANNED
-**AI / LLM Engine (Groq, OpenAI, etc.)**
+### v0.3 ⏳ PLANNED
+**Developer Experience**
 
-### v0.4.0 ⏳ PLANNED
-**Database Layer (MongoDB, PostgreSQL adapters)**
+### v0.4 ⏳ PLANNED
+**Production & Performance**
 
-### v0.5.0 ⏳ PLANNED
-**Observability (Metrics, Tracing, Health Checks)**
+### v0.5 ⏳ PLANNED
+**Full Backend Platform**
 
-### v0.6.0 ⏳ PLANNED
-**Production Ready (Graceful Shutdown, Logging Pipelines)**
-
-### v0.7.0 ⏳ PLANNED
-**Developer Experience (CLI, Hot Reload, Auto-docs)**
-
-### v1.0.0 ⏳ PLANNED
-**Plugin Ecosystem, Benchmarks, Full Documentation**
+### v1.0 ⏳ PLANNED
+**Launch / Ecosystem**
 
 </div>
 
+| Version | Focus | Status |
+|---|---|:---:|
+| `v0.1` | Core HTTP, router, middleware, security, validation, errors | ✅ Complete |
+| `v0.2` | AI Route Generation, AI Error Analysis, AI Debugging, AI API Docs, AI Request Validation, AI Middleware Generation, AI Developer Assistant, AI Agent Integration, LLM Provider Abstraction, AI Memory | 🚧 In Progress |
+| `v0.3` | Developer experience tooling (CLI, hot reload, docs) | ⏳ Planned |
+| `v0.4` | Production hardening & performance (graceful shutdown, dedicated benchmark suite) | ⏳ Planned |
+| `v0.5` | Full backend platform (database layer, observability) | ⏳ Planned |
+| `v1.0` | Plugin ecosystem & final launch | ⏳ Planned |
 
 ---
 
@@ -674,7 +671,6 @@ npm test
 Contributions welcome! For v0.1.0, focus areas:
 
 - Bug reports & fixes
-- TypeScript improvements
 - Documentation & examples
 - Test coverage expansion
 
@@ -699,8 +695,8 @@ MIT — See LICENSE file
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&animation=fadeIn" width="100%"/>
 
-**v0.1.0 shipped. v0.2.0 coming soon.**
+**v0.1.0 shipped. v0.2 (AI-Native) coming soon.**
 
-**Where Express ends, Zingoo begins.**
+**Where Express boilerplate ends, Zingoo begins.**
 
 </div>
