@@ -656,16 +656,6 @@ throw new ZingooError("User not found", 404);
 
 </div>
 
-| Version | Focus | Status |
-|---|---|:---:|
-| `v0.1.0` | Core HTTP, router, middleware, security, errors | ✅ Complete |
-| `v0.2.0` | Type safety, validation schemas | 🚧 In Progress |
-| `v0.3.0` | AI/LLM engine (Groq, OpenAI) | ⏳ Planned |
-| `v0.4.0` | Database adapters (Mongo, Postgres) | ⏳ Planned |
-| `v0.5.0` | Observability (metrics, tracing, health) | ⏳ Planned |
-| `v0.6.0` | Production (graceful shutdown, logging) | ⏳ Planned |
-| `v0.7.0` | DX (CLI, hot reload, auto-docs) | ⏳ Planned |
-| `v1.0.0` | Plugin marketplace, benchmarks, final docs | ⏳ Planned |
 
 ---
 
