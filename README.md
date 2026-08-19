@@ -8,9 +8,13 @@
 
 ## 🚀 Zingoo v0.1.0 — Officially Launched
 
+<img src="https://camo.githubusercontent.com/e48401e4018d3287d387998dcbdd928fbe90d0a686ea201ac1dc58f00e5d85c9/68747470733a2f2f6f776c6265727473696f2d726573697a65642e73332e616d617a6f6e6177732e636f6d2f506f707065722e7073642e66756c6c2e706e67" width="400" alt="Launch"/>
+
 **Build More. Configure Less.**
 
 Zingoo **v0.1.0** is now officially available on npm 🎉
+
+Zingoo is an all-in-one Node.js framework for building modern backend applications with essential backend capabilities built directly into the framework.
 
 ### 📦 Install Zingoo
 
