@@ -161,11 +161,11 @@ Early performance numbers for **Zingoo v0.1.0**. These are first-pass benchmarks
 
 <div align="center">
 
-<img src="bench1.png" width="700" alt="Zingoo v0.1.0 benchmark — requests per second"/>
+<img src="bench1.jpeg" width="700" alt="Zingoo v0.1.0 benchmark — requests per second"/>
 
 <br/><br/>
 
-<img src="bench2.png" width="700" alt="Zingoo v0.1.0 benchmark — routing latency"/>
+<img src="bench2.jpeg" width="700" alt="Zingoo v0.1.0 benchmark — routing latency"/>
 
 </div>
 
