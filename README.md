@@ -35,7 +35,7 @@
 
 ### 📚 Documentation
 
-**[Getting Started](#-quick-start)** · **[What's Shipped](#-whats-in-v010)** · **[Core Concepts](#-core-concepts)** · **[API Reference](#-api-reference)** · **[Roadmap](#-roadmap)** · **[Contributing](#-contributing)**
+**[Getting Started](#-quick-start)** · **[What's Shipped](#-whats-in-v010)** · **[Benchmarks](#-benchmarks)** · **[Core Concepts](#-core-concepts)** · **[API Reference](#-api-reference)** · **[Roadmap](#-roadmap)** · **[Contributing](#-contributing)**
 
 </div>
 
@@ -50,6 +50,7 @@
 
 - [What is Zingoo?](#-what-is-zingoo)
 - [What's in v0.1.0](#-whats-in-v010)
+- [Benchmarks](#-benchmarks)
 - [Core Concepts](#-core-concepts)
   - [HTTP Server & Router](#-http-server--router)
   - [Middleware & Flow Control](#-middleware--flow-control)
@@ -151,6 +152,29 @@ Zingoo is a **TypeScript-first, modern Node.js HTTP framework** designed as a le
 - ✅ Public API & examples
 - ✅ Full TypeScript support
 - ✅ **44/44 tests passing** ✅
+
+---
+
+## 📊 Benchmarks
+
+Early performance numbers for **Zingoo v0.1.0**. These are first-pass benchmarks — a dedicated benchmarking suite is planned for a future release (see [Roadmap](#-roadmap)).
+
+<div align="center">
+
+<img src="bench1.png" width="700" alt="Zingoo v0.1.0 benchmark — requests per second"/>
+
+<br/><br/>
+
+<img src="bench2.png" width="700" alt="Zingoo v0.1.0 benchmark — routing latency"/>
+
+</div>
+
+> **⚠️ Known gap:** In v0.1.0, **dynamic routing (`/users/:id`) is ~14.5% slower than static/simple routing (`/users`)**. This is a known overhead from the current param-matching implementation and is being tracked for optimization in an upcoming release.
+
+| Route Type | Relative Performance |
+|---|:---:|
+| Static route (`/users`) | Baseline (100%) |
+| Dynamic route (`/users/:id`) | ~14.5% slower |
 
 ---
 
