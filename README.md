@@ -169,12 +169,7 @@ Early performance numbers for **Zingoo v0.1.0**. These are first-pass benchmarks
 
 </div>
 
-> **⚠️ Known gap:** In v0.1.0, **dynamic routing (`/users/:id`) is ~14.5% slower than static/simple routing (`/users`)**. This is a known overhead from the current param-matching implementation and is being tracked for optimization in an upcoming release.
 
-| Route Type | Relative Performance |
-|---|:---:|
-| Static route (`/users`) | Baseline (100%) |
-| Dynamic route (`/users/:id`) | ~14.5% slower |
 
 ---
 
