@@ -14,7 +14,6 @@
 
 Zingoo **v0.1.0** is now officially available on npm 🎉
 
-Zingoo is an all-in-one Node.js framework for building modern backend applications with essential backend capabilities built directly into the framework.
 
 ### 📦 Install Zingoo
 
@@ -31,8 +30,7 @@ npm install zingoo
 <br/>
 
 > The all-in-one Node.js framework for modern backend development
-> From API to AI. One Framework
-> Build More. Configure Less.
+
 
 <br/>
 
