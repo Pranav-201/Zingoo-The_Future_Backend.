@@ -3,7 +3,7 @@
 <br/>
 
 
-<img src="Zingoo_logo.png" width="400" alt="Zingoo Logo"/>
+<img src="Zingoo_logo.png" width="600" alt="Zingoo Logo"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00F5D4&center=true&vCenter=true&width=650&lines=Secure+by+default.+Fast+by+design.;JavaScript%2DFirst+HTTP+Framework;One+framework.+Zero+boilerplate.;npm+install+zingoo" alt="Typing SVG"/>
 
