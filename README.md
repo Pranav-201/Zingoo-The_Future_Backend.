@@ -701,6 +701,6 @@ MIT — See LICENSE file
 
 **v0.1.0 shipped. v0.2.0 coming soon.**
 
-**Where Express boilerplate ends, Zingoo begins.**
+**Where Express ends, Zingoo begins.**
 
 </div>
